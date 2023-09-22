@@ -1,5 +1,4 @@
 import actionType from "./actionTypes";
-import * as apis from '../../apis'
 
 export const setCurSongId = (sid) => ({
     type: actionType.SET_CUR_SONG_ID,

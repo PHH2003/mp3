@@ -5,7 +5,7 @@ import icons from '../ultis/icons'
 import * as action from '../store/action'
 import { toast } from 'react-toastify'
 
-const { AiOutlineHeart, AiFillHeart, BsThreeDots, MdSkipNext, MdSkipPrevious, CiRepeat, BsPauseFill, BsFillPlayFill, CiShuffle } = icons
+const { AiOutlineHeart, BsThreeDots, MdSkipNext, MdSkipPrevious, CiRepeat, BsPauseFill, BsFillPlayFill, CiShuffle } = icons
 var intervalId
 const Player = () => {
     // const audioEl = useRef(new Audio())
